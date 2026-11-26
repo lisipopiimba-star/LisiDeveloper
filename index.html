@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lisi Developer — независимый разработчик сайтов и веб-приложений</title>
+<meta name="description" content="Lisi Developer (lisipopiimba) — независимый разработчик. Создаю современные сайты и веб-приложения.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Lisi Developer — на главную">
+      <img src="assets/logo.png" alt="" width="36" height="36">
+      <span>Lisi Developer</span>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span></button>
+    <nav id="nav" aria-label="Основная навигация">
+      <ul>
+        <li><a href="#about">О разработчике</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#tech">Технологии</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <a class="btn btn-primary btn-small" href="https://t.me/lisipopiimba" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <img class="hero-logo" src="assets/logo.png" alt="Логотип Lisi Developer — оранжевая голова лисы" width="748" height="601">
+    <div class="wrap hero-inner">
+      <p class="hero-name">Lisi Developer, он же lisipopiimba</p>
+      <h1>Создаю сайты и веб‑приложения, в которых есть смысл и характер</h1>
+      <p class="lead">Независимый разработчик. Беру задачу от идеи до работающего адаптивного сайта.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+        <a class="btn btn-ghost" href="https://t.me/lisipopiimba" target="_blank" rel="noopener noreferrer">Связаться в Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="image-slot about-photo reveal" data-img="assets/images/home/about" data-alt="lisipopiimba, независимый разработчик"><span>Здесь будет ваше фото</span></div>
+      <div class="reveal">
+        <h2 id="about-title">О разработчике</h2>
+        <p>lisipopiimba — независимый разработчик, который создаёт современные сайты и веб-приложения. Работает над проектом целиком: продумывает структуру и внешний вид, верстает адаптивный интерфейс и доводит его до рабочего состояния.</p>
+        <p>В основе подхода — понятная структура, аккуратный код и интерфейсы, которыми удобно пользоваться на телефоне, планшете и большом мониторе.</p>
+        <dl class="principles">
+          <div><dt>Дизайн с идеей</dt><dd>Внешний вид строится вокруг смысла проекта, а не вокруг шаблона.</dd></div>
+          <div><dt>Чистый код</dt><dd>Без лишних библиотек и дублирования: такой сайт быстро грузится и легко развивается.</dd></div>
+          <div><dt>Любой экран</dt><dd>Каждый макет проверяется на смартфоне, планшете и широком мониторе.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <div class="wrap">
+      <h2 id="projects-title">Мои проекты</h2>
+      <p class="section-note">Это концепты и демонстрационные проекты, а не коммерческие заказы.</p>
+
+      <article class="project reveal" id="messenger-nexus" aria-labelledby="t-nexus">
+        <div class="project-info">
+          <p class="badge">Концепт — мессенджер</p>
+          <h3 id="t-nexus">Messenger Nexus</h3>
+          <p>Концепт современного мессенджера: быстрые чаты, спокойный тёмный интерфейс и продуманные сценарии общения.</p>
+          <ul class="features">
+            <li>Личные чаты, группы и каналы</li>
+            <li>Тёмная тема и настройка оформления</li>
+            <li>Поиск по переписке</li>
+            <li>Единый интерфейс для телефона и компьютера</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-primary" href="project.html?p=messenger-nexus">Подробно</a>
+            <a class="btn btn-ghost" data-project-link="messenger-nexus" href="#projects">Смотреть проект</a>
+          </div>
+        </div>
+        <div class="image-slot cover" data-img="assets/images/messenger-nexus/cover" data-alt="Messenger Nexus — обложка проекта"><span>Обложка проекта</span></div>
+      </article>
+
+      <article class="project reveal" id="aurora-detailing" aria-labelledby="t-aurora">
+        <div class="project-info">
+          <p class="badge">Демонстрационный проект — сайт студии</p>
+          <h3 id="t-aurora">AURORA DETAILING</h3>
+          <p>Сайт студии автомобильного детейлинга: услуги, примеры работ и понятный путь от первого экрана до обращения.</p>
+          <ul class="features">
+            <li>Каталог услуг детейлинга</li>
+            <li>Галерея работ до и после</li>
+            <li>Контакты и способы записи</li>
+            <li>Адаптивная вёрстка под любые экраны</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-primary" href="project.html?p=aurora-detailing">Подробно</a>
+            <a class="btn btn-ghost" data-project-link="aurora-detailing" href="#projects">Смотреть проект</a>
+          </div>
+        </div>
+        <div class="image-slot cover" data-img="assets/images/aurora-detailing/cover" data-alt="AURORA DETAILING — обложка проекта"><span>Обложка проекта</span></div>
+      </article>
+
+      <article class="project reveal" id="nova-finance" aria-labelledby="t-nova">
+        <div class="project-info">
+          <p class="badge">Демонстрационный проект — приложение</p>
+          <h3 id="t-nova">NOVA FINANCE</h3>
+          <p>Демонстрационное приложение для управления личными финансами: доходы, расходы и цели в одном наглядном интерфейсе.</p>
+          <ul class="features">
+            <li>Учёт доходов и расходов</li>
+            <li>Категории и бюджеты</li>
+            <li>Цели накоплений</li>
+            <li>Графики и сводки по периодам</li>
+          </ul>
+          <div class="actions">
+            <a class="btn btn-primary" href="project.html?p=nova-finance">Подробно</a>
+            <a class="btn btn-ghost" data-project-link="nova-finance" href="#projects">Смотреть проект</a>
+          </div>
+        </div>
+        <div class="image-slot cover" data-img="assets/images/nova-finance/cover" data-alt="NOVA FINANCE — обложка проекта"><span>Обложка проекта</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="tech" aria-labelledby="tech-title">
+    <div class="wrap">
+      <h2 id="tech-title">Технологии</h2>
+      <ul class="tech">
+        <li><strong>HTML</strong><span>семантическая разметка и доступность</span></li>
+        <li><strong>CSS</strong><span>адаптивная вёрстка без фреймворков</span></li>
+        <li><strong>JavaScript</strong><span>интерактивность без сторонних библиотек</span></li>
+      </ul>
+      <p class="section-note">Именно на этом стеке сделан этот сайт.</p>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="wrap">
+      <h2 id="contacts-title">Давайте обсудим ваш проект</h2>
+      <p>Расскажите, что нужно сделать, — отвечу в Telegram.</p>
+      <a class="btn btn-dark" href="https://t.me/lisipopiimba" target="_blank" rel="noopener noreferrer">Написать @lisipopiimba</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="brand" href="#top"><img src="assets/logo.png" alt="" width="36" height="36"><span>Lisi Developer</span></a>
+    <p>Псевдоним: lisipopiimba</p>
+    <a href="https://t.me/lisipopiimba" target="_blank" rel="noopener noreferrer">Telegram: @lisipopiimba</a>
+  </div>
+</footer>
+
+
+<script src="js/images.js"></script>
+<script src="js/site-config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
